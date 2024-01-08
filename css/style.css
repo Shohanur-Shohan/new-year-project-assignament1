@@ -231,9 +231,11 @@ section{
 }
 /* holiday sale */
 .holiday-sale{
-    margin-bottom: 100px;
+
     text-align: center;
-    border: 1px solid red;
+}
+.holiday-sale .content {
+    margin-bottom: 50px;
 }
 .holiday-sale h4{
     color: #070211;
@@ -255,4 +257,33 @@ section{
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
+}
+.holiday-sale .discount .inner-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.holiday-sale .discount .inner-content .content1 img{
+    margin-bottom: -600px;
+    z-index: 2;
+    position: relative;
+    width: 100%;
+}
+.holiday-sale .discount .inner-content .content2 {
+    text-align: right;
+    margin-bottom: -10px;
+    display: flex;
+}
+.holiday-sale .discount .inner-content .content2 .img-group{
+    /* position: ; */
+    display: flex;
+    align-items: center;
+}
+.holiday-sale .discount .inner-content .content2 .img2{
+    position: relative;
+    top: 0;
+    right: -100px;
+}
+.holiday-sale .discount .bottom-image img{
+    z-index: 0;
 }
