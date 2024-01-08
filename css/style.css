@@ -10,7 +10,7 @@ body{
 section{
     width: 1320px;
     margin: 0 auto;
-    border: 1px solid red;
+
 }
 /* hero section */
 .hero{
@@ -178,10 +178,10 @@ section{
     align-items: center;
 }
 .coming-soon .row .content{
-    border: 1px solid red;
+
 }
 .coming-soon .row .content2{
-    border: 1px solid red;
+
 }
 .coming-soon .row .content2 .image{
     width: 100%;
@@ -196,6 +196,6 @@ section{
     padding: 30px;
 }
 .coming-soon .row .content3{
-    border: 1px solid red;
+
 
 }
