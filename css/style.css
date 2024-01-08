@@ -135,6 +135,7 @@ section{
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     margin: 120px auto;
     border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .event .content h1{
     color: #070211;
@@ -169,7 +170,7 @@ section{
 }
 /* coming soon */
 .coming-soon{
-
+    margin-bottom: 100px;
 }
 .coming-soon .row{
     display: grid;
@@ -177,11 +178,28 @@ section{
     justify-content: space-between;
     align-items: center;
 }
-.coming-soon .row .content{
-
+.coming-soon .row .content {
+    padding-right: 50px;
 }
-.coming-soon .row .content2{
-
+.coming-soon .row .content h3{
+    color: #F00;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 500;
+}
+.coming-soon .row .content h1{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.coming-soon .row .content p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 20px;
 }
 .coming-soon .row .content2 .image{
     width: 100%;
@@ -190,12 +208,51 @@ section{
     align-items: center;
 }
 .coming-soon .row .content2 img{
-    width: 80%;
+    width: 90%;
     border: 10px solid #FF0000;
     border-radius: 50%;
     padding: 30px;
 }
 .coming-soon .row .content3{
-
-
+    padding-left: 100px;
+}
+.coming-soon .row .content3 h1{
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.coming-soon .row .content3 p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+/* holiday sale */
+.holiday-sale{
+    margin-bottom: 100px;
+    text-align: center;
+    border: 1px solid red;
+}
+.holiday-sale h4{
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.holiday-sale h1{
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.holiday-sale span{
+    color: #F00;
+}
+.holiday-sale p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
 }
