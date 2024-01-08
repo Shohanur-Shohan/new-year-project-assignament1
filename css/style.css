@@ -418,3 +418,7 @@ footer .bottom .content1,.content2 p{
     font-weight: 500;
     line-height: 40px;
 }
+footer .content2 .item{
+    display: flex;
+    gap: 8px;
+}
